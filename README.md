@@ -1,6 +1,6 @@
 # group_assignment1
 
-# members
+ members
 
 #   - Nzaramyimana Frodouard                 -->  221015977
 
@@ -9,12 +9,12 @@
 #   - Umuvandimwe Jean Marie Vianney         --> 221011017
 
 
-link to git repository:   
+link to git repository:   https://github.com/floduard/github_group_assignment1.git
 
 
-# path to exact assignment aswer file   :    github_group_assignment1/group_ass
+ path to exact assignment aswer file   :    github_group_assignment1/group_ass
 
-#  file name :   assignmentfile.kt
+# file name :   assignmentfile.kt
 
 
 
@@ -56,6 +56,13 @@ class GuessColorGame(val colors: List<Char>) {
         return guess.filter { it in colors }.toList()
     }
 }
+
+
+
+
+
+
+
 
 class Setter(private val playerName: String, private val colors: List<Char>) {
     fun setguessCode(): List<Char> {
